@@ -1,1 +1,2 @@
 # Project-Landing-Page
+Hi THE ODIN PROJECT Community. This is a beginner style horror project of mine. From the Landing page project in the foundations course, Everything is rusty and this is all manually coded. For any suggestions feel free to reach out to me to improve this. Thank you!
