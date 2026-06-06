@@ -2,30 +2,96 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #3C0753;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #121113;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
 }
+/* Header Start */
 .head{
     display: flex;
     flex-direction: row;
-    background-color: #030637;
+    background-color: #0D0D0D;
     justify-content: space-between;
     padding: 40px;
     align-items: center;
    
 }
 .logo{
-    font-family: "Pixelify Sans";
+    font-family: "Chewy";
     font-size: 32px;
-    color: white;
+    color: #F0C040;
+    font-weight: 1000;
 }
 .links{
     display: flex;
     gap: 40px;
-    cursor: pointer;
+    
 }
 a{
     text-decoration: none;
     font-size: 18px;
-    color: white;
+    color: #E8E8E8;
+     cursor: pointer;
+     transition: 0.5s ease
+}
+a:hover{
+    font-size: 24px;
+    color: #C0392B;
+}
+/* Header End */
+/* Page 1 Start */
+.page1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 150px;
+    align-items: center;
+}
+.page1 .left{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.page1 .right img{
+    width: 600px;
+    height: auto;
+}
+.page1 .title{
+    color: #F0C040;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.page1 .subtext{
+    color: rgb(154, 154, 154);
+}
+.page1 .signup{
+    width: 35%;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F0C040;
+    color: black;
+}
+/* Page 1 End */
+/* Page 2 Start */
+.page2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F0C040;
+    padding: 100px 200px;
+
+}
+.page2 img{
+    height: 150px;
+    width: auto;
+}
+.page2 .game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
